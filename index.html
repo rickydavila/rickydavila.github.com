@@ -12,6 +12,7 @@
 
   <!-- Loading Drunken Parrot UI -->
   <link href="css/drunken-parrot.css" rel="stylesheet">
+  <link href="css/animate.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 
   <!-- <link rel="shortcut icon" href="images/favicon.ico"> -->
@@ -29,15 +30,47 @@
   <div class="jumbotron">
     <div class="container">
       <header>
-        <row>
-          <div class="col-md-6"><h3>Laborgrid</h3></div>
-          <div class="col-md-6"><a href="#" class="btn btn-primary btn-embossed pull-right">Login</a></div>
-        </row>
+        <div class="row">
+          <div class="col-xs-12 col-sm-1"></div>
+          <div class="col-xs-6 col-sm-5"><img id="logo" src="images/laborgrid_logo_s.png" alt="Laborgrid"/></div>
+          <div class="col-xs-6 col-sm-5"><a href="http://staging.laborgrid.com" class="btn btn-success btn-embossed pull-right">Login</a></div>
+          <div class="col-xs-12 col-sm-1"></div>
+        </div>
       </header>
-      <div class="col-md-12 headlines">
-        <h1>Dynamic Rate Management</h1>
-        <p>This is the awesome truth about the coolest up and coming app ever.</p>
-        <p><a href="#" class="btn btn-primary btn-embossed">Schedule a Demo →</a></p>
+      <div class="row">
+        <div class="col-sm-12 headlines">
+          <h1 class="text-shadow animated fadeInDown">Dynamic Rate Management</h1>
+          <p class="text-shadow">Real-Time Rate Negotiation Platform. Powerful rate comparison tools.</p>
+          <div class="col-xs-12 col-sm-1"></div>
+          <form class="contact-form" id="contact-form" role="form" onsubmit="return sendMessage(this)">
+            <div class="col-xs-12 col-sm-4 less-padding-right">
+              <div class="form-group input-required">
+                <input type="email" name="email" class="form-control" required placeholder="Email Address" required>
+                <span></span>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 less-padding-right">
+              <div class="form-group input-required">
+                <input type="text" name="company" class="form-control" required placeholder="Company Name" required>
+                <span></span>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-1 less-margin-top">
+              <button id="send-button" type="submit" class="btn btn-primary btn-embossed btn-animate">Schedule a Demo →</button>
+            </div>
+          </form>
+          <div class="col-xs-12 col-sm-2"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-2"></div>
+        <div class="col-xs-12 col-sm-8 headlines">
+          <p class="text-shadow smaller-text">
+            Laborgrid is a platform for negotiating rates in real-time across multiple sites and contractors.
+            Eliminate confusing spreadsheets and reduce rate negotiation cycle times.
+          </p>
+        </div>
+        <div class="col-xs-12 col-sm-2"></div>
       </div>
     </div>
   </div>

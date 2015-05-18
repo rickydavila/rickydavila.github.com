@@ -20,6 +20,7 @@ body, div, html {
 */
   background-size: cover;
   min-height: 672px;
+  padding-top: 3rem;
 }
 
 .jumbotron .headlines {
@@ -28,4 +29,41 @@ body, div, html {
 
 .jumbotron h1 {
   font-family: "SourceSansProSemiBold", Helvetica, Arial, sans-serif;
+}
+
+.text-shadow {
+  text-shadow: 0 1px 10px rgba(0,0,0,.5);
+}
+
+.jumbotron p.smaller-text {
+  color: #dcd4cb;
+  font-size: 12px;
+  margin-top:20px;
+}
+
+@media (min-width: 768px) {
+  .jumbotron p.smaller-text {
+    font-size: 17px;
+    margin-top:0px;
+  }
+}
+
+header {
+  margin-bottom: 7rem;
+}
+
+#logo {
+  margin-top:-5px;
+  width: 214px;
+/*
+  height: 60px;
+*/
+}
+
+.less-padding-right {
+  margin-right:-20px;
+}
+
+.less-margin-top {
+  margin-top:-5px;
 }
