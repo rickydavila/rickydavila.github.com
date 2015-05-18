@@ -1,0 +1,31 @@
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+body, div, html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+.jumbotron {
+  background-image: url('../images/bg_1.jpg');
+  padding: 70px 30px;
+  background-repeat: no-repeat;
+/*
+  background-position: center;
+*/
+  background-size: cover;
+  min-height: 672px;
+}
+
+.jumbotron .headlines {
+  text-align: center;
+}
+
+.jumbotron h1 {
+  font-family: "SourceSansProSemiBold", Helvetica, Arial, sans-serif;
+}
