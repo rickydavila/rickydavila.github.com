@@ -121,7 +121,21 @@ header {
   line-height: 1em;
   margin-left: .2em;
   color: #364347;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 }
+
+.features-circle:hover {
+  background-color: #364347;
+}
+
+.features-circle:hover .features-icon {
+  color: #f3bc65;
+}
+
 
 #footer.navbar {
   margin-bottom: 0;
