@@ -21,6 +21,7 @@ body, div, html {
   background-size: cover;
   min-height: 672px;
   padding-top: 3rem;
+  margin-bottom: 0;
 }
 
 .jumbotron .headlines {
@@ -78,4 +79,55 @@ header {
 
 #thankyou-form-group {
   display:none;
+}
+
+#services {
+  background-color: #f3bc65;
+}
+
+.features-circle {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 0;
+  margin-top: 30px;
+  font-size: 35px;
+  text-align: center;
+  line-height: 96px;
+  border: solid 2px #364347;
+  border-radius: 50%;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  box-sizing: border-box;
+}
+
+.features-circle .features-icon {
+  display: inline-block;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+  text-decoration: inherit;
+  /* width: 1em; */
+  margin-right: .2em;
+  margin-top: 5px;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  margin-left: .2em;
+  color: #364347;
+}
+
+#footer.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.services-container {
+  margin: 40px 40px;
 }
