@@ -44,7 +44,7 @@ body, div, html {
 @media (min-width: 768px) {
   .jumbotron p.smaller-text {
     font-size: 17px;
-    margin-top:0px;
+    margin-top:15px;
   }
 }
 
@@ -66,4 +66,16 @@ header {
 
 .less-margin-top {
   margin-top:-5px;
+}
+
+#warning-row {
+  display:none;
+}
+/*
+.warning-text {
+  color:
+}*/
+
+#thankyou-form-group {
+  display:none;
 }
