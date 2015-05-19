@@ -50,15 +50,21 @@ body, div, html {
 }
 
 header {
-  margin-bottom: 7rem;
+  margin-bottom: 2.0rem;
 }
 
 #logo {
   margin-top:-5px;
+  padding-right:15px;
   width: 214px;
 /*
   height: 60px;
 */
+}
+
+#login-button {
+  margin-top: 30px;
+  float: left;
 }
 
 .less-padding-right {
@@ -81,8 +87,25 @@ header {
   display:none;
 }
 
+
+
 #services {
   background-color: #f3bc65;
+  margin: 0;
+  padding: 20px 40px 40px 40px;
+}
+
+@media (min-width: 768px) {
+  #login-button {
+    margin-top: 0;
+    float: right;
+  }
+  header {
+    margin-bottom: 7rem;
+  }
+  #services {
+    padding: 20px 80px 40px 80px;
+  }
 }
 
 .features-circle {
@@ -143,5 +166,9 @@ header {
 }
 
 .services-container {
-  margin: 40px 40px;
+  margin: 40px 50px 40px 40px;
+}
+
+.feature {
+  max-width: 800px;
 }
