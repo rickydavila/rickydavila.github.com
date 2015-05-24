@@ -1,3 +1,5 @@
+/*BODY*/
+
 .container-fluid {
   padding-left: 0px;
   padding-right: 0px;
@@ -10,6 +12,8 @@ body, div, html {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
+
+/*JUMBOTRON*/
 
 .jumbotron {
   background-image: url('../images/bg_1.jpg');
@@ -49,6 +53,8 @@ body, div, html {
   }
 }
 
+/*HOME PAGE STYLES*/
+
 header {
   margin-bottom: 2.0rem;
 }
@@ -57,9 +63,6 @@ header {
   margin-top:-5px;
   padding-right:15px;
   width: 214px;
-/*
-  height: 60px;
-*/
 }
 
 #login-button {
@@ -78,16 +81,10 @@ header {
 #warning-row {
   display:none;
 }
-/*
-.warning-text {
-  color:
-}*/
 
 #thankyou-form-group {
   display:none;
 }
-
-
 
 #services {
   background-color: #f3bc65;
@@ -106,6 +103,12 @@ header {
   #services {
     padding: 20px 80px 40px 80px;
   }
+}
+
+/*FEATURES BLOCK*/
+
+.feature {
+  max-width: 800px;
 }
 
 .features-circle {
@@ -159,16 +162,38 @@ header {
   color: #f3bc65;
 }
 
+.services-container {
+  margin: 40px 50px 40px 40px;
+}
+
+/*FOOTER*/
 
 #footer.navbar {
   margin-bottom: 0;
   border-radius: 0;
 }
 
-.services-container {
-  margin: 40px 50px 40px 40px;
+/*TERMS*/
+
+.terms-and-conditions .logo {
+  padding-right:15px;
+  width: 194px;
+  margin-top: 15px;
 }
 
-.feature {
-  max-width: 800px;
+.terms-and-conditions .navbar-default .navbar-form .login-button {
+  margin-right:100px;
+  max-width:40px;
+}
+
+.terms-home-link {
+  margin-right: 25px;
+}
+
+
+@media (min-width: 768px) {
+  .terms-and-conditions .logo {
+    margin-left:5px;
+    width: 214px;
+  }
 }
