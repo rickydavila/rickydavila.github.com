@@ -56,7 +56,7 @@ body, div, html {
 /*HOME PAGE STYLES*/
 
 header {
-  margin-bottom: 2.0rem;
+  margin-bottom: 1.0rem;
 }
 
 .home .logo {
@@ -92,6 +92,13 @@ header {
   padding: 20px 40px 40px 40px;
 }
 
+/*VIDEO*/
+
+.video-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 @media (min-width: 768px) {
   .home .logo {
     margin-top:-5px;
@@ -104,12 +111,15 @@ header {
     float: right;
   }
   header {
-    margin-bottom: 7rem;
+    margin-bottom: 1rem;
   }
   #services {
     padding: 20px 80px 40px 80px;
   }
+
 }
+
+
 
 /*FEATURES BLOCK*/
 
@@ -202,4 +212,10 @@ header {
     margin-left:5px;
     width: 214px;
   }
+}
+
+/*UTILITY*/
+
+.margin-top {
+    margin-top: 25px;
 }
